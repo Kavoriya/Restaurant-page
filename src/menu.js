@@ -4,14 +4,14 @@ function createMenu() {
          name: 'Carbonara',
          description: 'A Roman pasta dish made with eggs, hard cheese, cured pork and black pepper.',
          price: '$5',
-         image: '../src/carbonara-img.jpeg',
+         image: '../src/images/carbonara-img.webp',
          alt: 'Tasty carbonara',
       },
       {
          name: 'Pizza',
          description: 'Delicious pizza. Ham, cheese, tomatoes, mushrooms, greens.',
          price: '$10',
-         image: '../src/pizza-img.jpg',
+         image: '../src/images/pizza-img.webp',
          alt: 'Tasty pizza',
       }
    ]

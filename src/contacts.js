@@ -4,7 +4,7 @@ function createContacts() {
 
    let image = document.createElement('img');
    image.classList.add('cafe-image');
-   image.src = '../src/cafe.jpg';
+   image.src = '../src/images/cafe.jpg';
    image.setAttribute('alt', 'Cafe Tasty Universe');
 
    let h2 = document.createElement('h2');
