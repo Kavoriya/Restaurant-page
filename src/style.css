@@ -92,3 +92,28 @@ h2, .customer {
    border-radius: 10px;
    width: 300px;
 }
+
+.cafe-image {
+   width: 800px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+}
+
+.contacts-info {
+   list-style: none;
+}
+
+.contacts-info, .contacts-h2 {
+   padding: 0;
+   margin: 0 0 20px 40px;
+}
+
+.contacts-info li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.contacts-info li span {
+   margin-right: 6px;
+}
