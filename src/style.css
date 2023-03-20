@@ -3,6 +3,36 @@ html {
    background-attachment: fixed;
    background-size: cover;
    box-sizing: border-box;
+   font-size: 20px;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   height: 80px;
+   background-color: black;
+   margin-bottom: 40px;
+}
+
+header nav {
+   width: 400px;
+   margin: 0 auto;
+}
+
+header ul {
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+header button {
+   background-color: black;
+   border: none;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
 }
 
 #content {
@@ -27,7 +57,7 @@ h2, .customer {
    border-radius: 20px;
    margin: 20px 10px;
    padding: 20px;
-   width: 400px;
+   width: 600px;
 }
 
 .hours-outer > p, .location-outer > p {
