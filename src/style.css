@@ -6,12 +6,18 @@ html {
    font-size: 20px;
 }
 
+body, html {
+   margin: 0;
+}
+
 header {
    display: flex;
    align-items: center;
    height: 80px;
    background-color: black;
    margin-bottom: 40px;
+   position: sticky;
+   top: 0;
 }
 
 header nav {
