@@ -62,7 +62,8 @@ function createHomePage() {
    locationOuterDiv.append(locationH2, locationP);
 
    let body = document.querySelector('body');
-   let content = document.getElementById('content');
+   let content = document.createElement('div');
+   content.id = 'content';
    let h1 = document.createElement('h1');
    h1.textContent = 'Tasty Universe';
    content.append(h1, hoursOuterDiv, reviewOuterDiv, locationOuterDiv);
