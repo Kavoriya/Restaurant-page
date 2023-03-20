@@ -84,4 +84,5 @@ h2, .customer {
    grid-row: 3/4;
    border: 2px solid grey;
    border-radius: 10px;
+   width: 300px;
 }
