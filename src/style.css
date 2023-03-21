@@ -27,7 +27,7 @@ header nav {
 
 header ul {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    margin: 0;
    padding: 0;
    list-style: none;
@@ -37,13 +37,14 @@ header button {
    background-color: black;
    border: none;
    color: white;
-   font-size: 1rem;
+   font-size: 1.2rem;
+   font-weight: 600;
    cursor: pointer;
 }
 
 #content {
    background-color: white;
-   width: fit-content;
+   width: 600px;
    padding: 20px;
    border-radius: 20px;
    margin: 0 auto;
@@ -63,7 +64,6 @@ h2, .customer {
    border-radius: 20px;
    margin: 20px 10px;
    padding: 20px;
-   width: 600px;
 }
 
 .hours-outer > p, .location-outer > p {
@@ -72,7 +72,7 @@ h2, .customer {
 
 .menu-item-outer {
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 50px 1fr;
    grid-template-rows: max-content max-content max-content;
 }
 
@@ -91,10 +91,11 @@ h2, .customer {
    border: 2px solid grey;
    border-radius: 10px;
    width: 300px;
+   justify-self: right;
 }
 
 .cafe-image {
-   width: 800px;
+   width: inherit;
    margin-bottom: 20px;
    border-radius: 20px;
 }
@@ -117,3 +118,49 @@ h2, .customer {
 .contacts-info li span {
    margin-right: 6px;
 }
+
+ @media only screen and (max-width: 750px) {
+   #content {
+      width: 500px;
+   }
+ }
+
+ @media only screen and (max-width: 570px) {
+   #content {
+      width: 400px;
+      padding: 10px;
+   }
+   .hours-outer, .review-outer, .location-outer, .menu-item-outer {
+      padding: 10px;
+   }
+   .menu-item-outer h2 { 
+      margin-top: 10px;
+   }
+ }
+
+ @media only screen and (max-width: 470px) {
+   html {
+      font-size: 16px;
+   }
+   #content {
+      width: 300px;
+   }
+   .menu-item-outer .item-img {
+      width: 200px;
+   }
+ }
+
+ @media only screen and (max-width: 350px) {
+   html {
+      font-size: 14px;
+   }
+   #content {
+      width: 250px;
+   }
+   .hours-outer, .review-outer, .location-outer, .menu-item-outer {
+      padding: 8px;
+   }
+   .menu-item-outer .item-img {
+      width: 150px;
+   }
+ }
