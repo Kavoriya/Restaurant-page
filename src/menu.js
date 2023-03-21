@@ -1,17 +1,20 @@
+import Carbonara from '../src/images/carbonara-img.webp';
+import Pizza from '../src/images/pizza-img.webp';
+
 function createMenu() {
    let dishes = [
       {
          name: 'Carbonara',
          description: 'A Roman pasta dish made with eggs, hard cheese, cured pork and black pepper.',
          price: '$5',
-         image: '../src/images/carbonara-img.webp',
+         image: Carbonara,
          alt: 'Tasty carbonara',
       },
       {
          name: 'Pizza',
          description: 'Delicious pizza. Ham, cheese, tomatoes, mushrooms, greens.',
          price: '$10',
-         image: '../src/images/pizza-img.webp',
+         image: Pizza,
          alt: 'Tasty pizza',
       }
    ]

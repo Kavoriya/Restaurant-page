@@ -1,10 +1,12 @@
+import Cafe from '../src/images/cafe.jpg';
+
 function createContacts() {
    let content = document.createElement('div');
    content.id = 'content';
 
    let image = document.createElement('img');
    image.classList.add('cafe-image');
-   image.src = '../src/images/cafe.jpg';
+   image.src = Cafe;
    image.setAttribute('alt', 'Cafe Tasty Universe');
 
    let h2 = document.createElement('h2');
